@@ -1,0 +1,225 @@
+/* 
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Bold.woff2') format('woff2'),
+      url('../fonts/Ubuntu-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+} */
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Medium.woff2') format('woff2'),
+      url('../fonts/Ubuntu-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Regular.woff2') format('woff2'),
+      url('../fonts/Ubuntu-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+      url('../fonts/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+p{
+  font-family: 'Proxima Nova Rg', sans-serif;
+
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?i9x2dg');
+    src:  url('../fonts/icomoon.eot?i9x2dg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?i9x2dg') format('truetype'),
+      url('../fonts/icomoon.woff?i9x2dg') format('woff'),
+      url('../fonts/icomoon.svg?i9x2dg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-illustration:before {
+    content: "\e926";
+  }
+  .icon-Microphone:before {
+    content: "\e900";
+  }
+  .icon-Mobile:before {
+    content: "\e901";
+  }
+  .icon-Order-now .path1:before {
+    content: "\e902";
+    color: rgb(255, 255, 255);
+  }
+  .icon-Order-now .path2:before {
+    content: "\e903";
+    margin-left: -3.2587890625em;
+    color: rgb(43, 43, 43);
+  }
+  .icon-Photographer:before {
+    content: "\e904";
+  }
+  .icon-Portfolio:before {
+    content: "\e905";
+  }
+  .icon-Send-Message .path1:before {
+    content: "\e906";
+    color: rgb(255, 180, 0);
+  }
+  .icon-Send-Message .path2:before {
+    content: "\e907";
+    margin-left: -4.54296875em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-Services:before {
+    content: "\e908";
+  }
+  .icon-Star:before {
+    content: "\e909";
+  }
+  .icon-twitter:before {
+    content: "\e90a";
+  }
+  .icon-youtube:before {
+    content: "\e90b";
+  }
+  .icon-location:before {
+    content: "\e90c";
+  }
+  .icon-mail:before {
+    content: "\e90d";
+  }
+  .icon-CV .path1:before {
+    content: "\e90e";
+    color: rgb(255, 180, 0);
+  }
+  .icon-CV .path2:before {
+    content: "\e90f";
+    margin-left: -5.5em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-CV .path3:before {
+    content: "\e910";
+    margin-left: -5.5em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-CV2 .path1:before {
+    content: "\e911";
+    color: rgb(255, 180, 0);
+  }
+  .icon-CV2 .path2:before {
+    content: "\e912";
+    margin-left: -5.5em;
+    color: rgb(43, 43, 43);
+  }
+  .icon-CV2 .path3:before {
+    content: "\e913";
+    margin-left: -5.5em;
+    color: rgb(43, 43, 43);
+  }
+  .icon-dribbble:before {
+    content: "\e914";
+  }
+  .icon-facebook:before {
+    content: "\e915";
+  }
+  .icon-game-development:before {
+    content: "\e916";
+  }
+  .icon-Go-Back-Home .path1:before {
+    content: "\e917";
+    color: rgb(255, 180, 0);
+  }
+  .icon-Go-Back-Home .path2:before {
+    content: "\e918";
+    margin-left: -4.4150390625em;
+    color: rgb(43, 43, 43);
+  }
+  .icon-Go-Back-Home .path3:before {
+    content: "\e919";
+    margin-left: -4.4150390625em;
+    color: rgb(43, 43, 43);
+  }
+  .icon-hire .path1:before {
+    content: "\e91a";
+    color: rgb(255, 180, 0);
+  }
+  .icon-hire .path2:before {
+    content: "\e91b";
+    margin-left: -3.01953125em;
+    color: rgb(24, 25, 26);
+  }
+  .icon-hire .path3:before {
+    content: "\e91c";
+    margin-left: -3.01953125em;
+    color: rgb(24, 25, 26);
+  }
+  .icon-Home:before {
+    content: "\e91d";
+  }
+  .icon-ad:before {
+    content: "\e91e";
+  }
+  .icon-Blog:before {
+    content: "\e91f";
+  }
+  .icon-Check:before {
+    content: "\e920";
+  }
+  .icon-Close:before {
+    content: "\e921";
+  }
+  .icon-coding:before {
+    content: "\e922";
+  }
+  .icon-Contact:before {
+    content: "\e923";
+  }
+  .icon-Contrast:before {
+    content: "\e924";
+  }
+  .icon-Copyright:before {
+    content: "\e925";
+  }
+  

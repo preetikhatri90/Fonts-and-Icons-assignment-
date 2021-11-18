@@ -1,0 +1,74 @@
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  font-size: 48px;
+}
+
+.container-fluid {
+  background-color: snow;
+}
+
+.container-fluid .row h1 header {
+  margin: 70px;
+  width: 500px;
+}
+
+.container {
+  background-color: snow;
+}
+
+.text-center {
+  background-color: snow;
+  text-transform: capitalize;
+}
+
+.text-center .grid-container {
+  margin: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 350px 350px 350px;
+      grid-template-columns: 350px 350px 350px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+
+.text-center .grid-container div {
+  padding: 20px;
+  background-color: white;
+  text-transform: capitalize;
+}
+
+.text-center .grid-container div .first {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text-center .grid-container div .gridflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container h3 {
+  font-weight: bold;
+}
+
+.container p span .dollor {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+
+.list li {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=main.css.map */
